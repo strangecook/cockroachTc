@@ -2,16 +2,12 @@ import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 import image1 from "./1.jpg"
 import "./Firstpage.css";
+import Navigation from '../Navigation';
 
 function Firstpage() {
     return (
         <>
-            <>
-                <div className="navbar">
-                    <Link to="/" className="nav-item">홈</Link>
-                    <Link to="/login" className="nav-item">소개</Link>
-                </div>
-            </>
+        <Navigation />
 
             <section >
                 <div className="outer">
