@@ -1,0 +1,11 @@
+.Thirdpage{
+    z-index: 5; 
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.ThirdpageCover{
+    width: 100vw;
+    height: 60vh;  
+    text-align: center;
+}
