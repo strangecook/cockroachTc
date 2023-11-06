@@ -29,11 +29,11 @@ function Fourthpage() {
                                     pagination={{ clickable: true }}
                                     scrollbar={{ draggable: true }}
                                 >
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=6" /></SwiperSlide> 
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=7" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=8" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=9" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=10" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=6" /></SwiperSlide> 
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=7" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=8" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=9" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=10" /></SwiperSlide>
                                 </Swiper>
                             </div>
                         </div>

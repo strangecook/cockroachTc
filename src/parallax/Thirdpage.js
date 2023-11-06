@@ -29,11 +29,11 @@ function Thirdpage() {
                                     pagination={{ clickable: true }}
                                     scrollbar={{ draggable: true }}
                                 >
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=1" /></SwiperSlide> 
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=2" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=3" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=4" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=5" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=1" /></SwiperSlide> 
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=2" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=3" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=4" /></SwiperSlide>
+                                    <SwiperSlide><img alt='google' src="https://source.unsplash.com/random/600x400?sig=5" /></SwiperSlide>
                                 </Swiper>
                             </div>
                         </div>

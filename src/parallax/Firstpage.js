@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
 import image1 from "./1.jpg"
 import "./Firstpage.css";
 import Navigation from '../Navigation';
