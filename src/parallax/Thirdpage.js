@@ -13,7 +13,7 @@ function Thirdpage() {
                             style={{ backgroundImage: `url(${image3})` }} // 배경이미지변경
                         >
                             <div>
-                                <div className='Thirdpage' >바선생 주요서비스 </div>
+                                <div className='Thirdpage' >바선생 앱 내부사진 </div>
                                 <div className='FirstpageExplain'>선생님을 위한 최고의 데스크탑 앱</div>
                             </div>
 
