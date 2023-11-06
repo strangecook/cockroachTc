@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-function Thirdpage() {
+function Fourthpage() {
     return (
         <>
             <section >
@@ -20,7 +20,7 @@ function Thirdpage() {
                             style={{ backgroundImage: `url(${image3})` }} // 배경이미지변경
                         >
                             <div className='ThirdpageCover'>
-                                <div className='Thirdpage' >바선생 앱 내부사진 </div>
+                                <div className='Thirdpage' >학생 앱 내부사진 </div>
                                 <Swiper
                                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                                     spaceBetween={50}
@@ -29,11 +29,11 @@ function Thirdpage() {
                                     pagination={{ clickable: true }}
                                     scrollbar={{ draggable: true }}
                                 >
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=1" /></SwiperSlide> 
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=2" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=3" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=4" /></SwiperSlide>
-                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=5" /></SwiperSlide>
+                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=6" /></SwiperSlide> 
+                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=7" /></SwiperSlide>
+                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=8" /></SwiperSlide>
+                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=9" /></SwiperSlide>
+                                    <SwiperSlide><img src="https://source.unsplash.com/random/600x400?sig=10" /></SwiperSlide>
                                 </Swiper>
                             </div>
                         </div>
@@ -46,4 +46,4 @@ function Thirdpage() {
     );
 };
 
-export default Thirdpage;
+export default Fourthpage;

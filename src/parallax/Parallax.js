@@ -6,10 +6,7 @@ import "./styles.css";
 import Firstpage from "./Firstpage";
 import Secondpage from "./Secondpage";
 import Thirdpage from "./Thirdpage";
-
-import image1 from "./1.jpg";
-import image2 from "./2.jpg";
-import image3 from "./3.jpg";
+import Fourthpage from "./Fourthpage";
 
 const gsapInit = () => {
   gsap.registerPlugin(Observer);
@@ -64,12 +61,6 @@ const gsapInit = () => {
   gotoSection(0, 1);
 };
 
-const sections = [
-  { title: "다운로드 버튼", image: image1 },
-  { title: "welcome to cockroach", image: image2 },
-  { title: "enjoy", image: image3 },
-];
-
 export const Parallax = () => {
   useEffect(() => {
     gsapInit();
@@ -79,19 +70,6 @@ export const Parallax = () => {
   <Firstpage/>
   <Secondpage/>
   <Thirdpage/>
+  <Fourthpage/>
   </>;
-  // return sections.map((section) => (
-  //   <section key={section.title}>
-  //     <div className="outer">
-  //       <div className="inner">
-  //         <div
-  //           className="bg one"
-  //           style={{ backgroundImage: `url(${section.image})` }}
-  //         >
-  //           <h2>{section.title}</h2>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </section>
-  // ));
 };
