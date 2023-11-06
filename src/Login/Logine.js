@@ -23,26 +23,7 @@ function logine() {
                     <input type="password" placeholder="닉네임" className="inlineToBlock">
                     </input>
                     <button className="inlineToBlock ordinaryLogin unactivatedLoginColor">회원가입</button>
-
-                    {/* <div className="horinzonAndOrWrap">
-                        <hr className="leftnHr" />
-                        <div className="or">n또는</div>
-                        <hr className="righntHr" />
-                    </div> */}
-
-                    {/* <a href="#" className="nonenunderline">
-                        <button className="inlineToBlock facebookLogin">
-                            {/* <img src="img/facebook.png" alt="" className="facenbookIcon">
-                            Facebook으로 로그인
-                        </button>
-                    </a> */}
-
                 </div>
-                {/* <div className="havenAccount">
-                    <p>계정이 없으신가요?
-                        <a href="#" className="nonenunderline">가입하기</a>
-                    </p>
-                </div> */}
             </div>
         </>
     );

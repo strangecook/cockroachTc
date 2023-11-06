@@ -2,7 +2,10 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { Observer } from "gsap/all";
 import "./styles.css";
+
 import Firstpage from "./Firstpage";
+import Secondpage from "./Secondpage";
+import Thirdpage from "./Thirdpage";
 
 import image1 from "./1.jpg";
 import image2 from "./2.jpg";
@@ -74,8 +77,8 @@ export const Parallax = () => {
 
   return <>
   <Firstpage/>
-  <Firstpage/>
-  <Firstpage/>
+  <Secondpage/>
+  <Thirdpage/>
   </>;
   // return sections.map((section) => (
   //   <section key={section.title}>

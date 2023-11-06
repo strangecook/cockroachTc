@@ -1,0 +1,17 @@
+.SecondpageH {
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+};
+
+.secondiconCover{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 555px;
+};
+
+.icontainer{
+    text-align: center;
+    padding: 10px;
+};
